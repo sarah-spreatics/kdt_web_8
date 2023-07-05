@@ -1,0 +1,30 @@
+/* 야생의 사자 */
+.zoo + .lion {
+  background-color: red;
+}
+
+/* 사파리 안의 사자 */
+.zoo .lion {
+  background-color: greenyellow;
+  font-weight: bold;
+}
+
+/* 호랑이 */
+#tiger {
+  background-color: yellow;
+}
+
+/* 사자 */
+.lion {
+  color: sienna;
+}
+
+/* 팬더 */
+#tiger + li {
+  background-color: skyblue;
+}
+
+/* 사육사 */
+.zoo li.lion ~ li {
+  background-color: orange;
+}
